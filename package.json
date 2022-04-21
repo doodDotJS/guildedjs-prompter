@@ -1,7 +1,7 @@
 {
   "name": "guildedjs-prompter",
   "version": "0.2.0",
-  "description": "",
+  "description": "A library for guilded.js to prompt user for a response.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/doodDotJS/guildedjs-prompter/issues"
   },
-  "homepage": "https://github.com/doodDotJS/guildedjs-prompter#readme"
+  "homepage": "https://github.com/doodDotJS/guildedjs-prompter#readme",
+  "devDependencies": {
+    "guilded.js": "^0.6.0"
+  }
 }

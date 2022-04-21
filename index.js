@@ -3,12 +3,15 @@ class Prompter {
         this.client = client;
     }
 
-    message(channelId, options = {}) {
-        if (options.question == null) options.question = "Yes or No?";
-        if (options.timeout == null) options.timeout = 5000;
-        if (options.max == null) options.max = 1;
-        if (options.deleteOnResponse == null) options.deleteOnResponse = false;
-
+    message(
+        channelId,
+        options = {
+            question: "Yes or No?",
+            timeout: 30000,
+            max: 1,
+            deleteOnResponse: false,
+        },
+    ) {
         return new Promise(async(resolve, reject) => {
             let toReturn = [];
             const questionMessage = await this.client.messages.send(
