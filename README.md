@@ -11,4 +11,4 @@ Examples can be found [here](https://github.com/doodDotJS/guildedjs-prompter/tre
 
 ## Documentation
 
-Documentation can be found in [wiki](https://github.com/doodDotJS/guildedjs-prompter/wiki).
+Documentation can be found in the [wiki](https://github.com/doodDotJS/guildedjs-prompter/wiki).
