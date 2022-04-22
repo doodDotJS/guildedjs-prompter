@@ -1,6 +1,6 @@
 {
     "name": "guildedjs-prompter",
-    "version": "0.2.2",
+    "version": "0.3.0",
     "description": "A library for guilded.js to prompt user for a response.",
     "main": "index.js",
     "scripts": {},
