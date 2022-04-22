@@ -7,6 +7,13 @@ A library for `guilded.js` to prompt user for a response, inspired by `discordjs
 
 - Message prompt -> Prompt a text response
 
+## Installation
+
+Simply run:
+```
+npm install guildedjs-prompter
+```
+
 ## Examples
 
 Examples can be found [here](https://github.com/doodDotJS/guildedjs-prompter/tree/main/examples).
