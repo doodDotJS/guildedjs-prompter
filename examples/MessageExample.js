@@ -1,6 +1,6 @@
 const { Client } = require("guilded.js");
 const client = new Client({
-    token: "",
+    token: "CdzVYJUbz2BtD4vwzdP29llog0zITQ/s5+9A8eTSy1pSEwtiP5LC2/4wFIqCTsghdE68lWx9x1Gn9sCHfVxYuA==",
 });
 
 const Prompter = require("../index");
@@ -14,6 +14,7 @@ client.on("messageCreated", async(message) => {
     // Returns an array of responses in the form of Message Objects.
     const responses = await prompter.message(message.channelId, {
         question: "Do you like cantaloupes?", // The question to ask.
+        userId: message.createdById, // Only get a response from a certain user. Else, accept a response from anyone.
         timeout: 10000, // 10 seconds in milliseconds
         max: 1, // The maximum amount of responses.
         deleteOnResponse: true, // False by default. Deletes the question message after the prompt ends.

@@ -1,4 +1,5 @@
 <h1 align="center">guildedjs-prompter</h1>
+
 A library for `guilded.js` to prompt user for a response, inspired by `discordjs-prompter`.
 
 ## Features

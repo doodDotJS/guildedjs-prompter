@@ -1,26 +1,24 @@
 {
-  "name": "guildedjs-prompter",
-  "version": "0.2.2",
-  "description": "A library for guilded.js to prompt user for a response.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/doodDotJS/guildedjs-prompter.git"
-  },
-  "keywords": [
-    "guilded",
-    "guilded.js"
-  ],
-  "author": "dood.js",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/doodDotJS/guildedjs-prompter/issues"
-  },
-  "homepage": "https://github.com/doodDotJS/guildedjs-prompter#readme",
-  "devDependencies": {
-    "guilded.js": "^0.6.0"
-  }
+    "name": "guildedjs-prompter",
+    "version": "0.2.2",
+    "description": "A library for guilded.js to prompt user for a response.",
+    "main": "index.js",
+    "scripts": {},
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/doodDotJS/guildedjs-prompter.git"
+    },
+    "keywords": [
+        "guilded",
+        "guilded.js"
+    ],
+    "author": "dood.js",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/doodDotJS/guildedjs-prompter/issues"
+    },
+    "homepage": "https://github.com/doodDotJS/guildedjs-prompter#readme",
+    "devDependencies": {
+        "guilded.js": "^0.6.0"
+    }
 }

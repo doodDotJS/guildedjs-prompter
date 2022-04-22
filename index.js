@@ -19,6 +19,9 @@ class Prompter {
             let MSG_COUNT = 0;
             const handleOnMessage = async(msg) => {
                 if (msg.createdById === this.client.user.id) return;
+                if (options.userId) {
+                    if (msg.createdById !== options.userId) return;
+                }
                 MSG_COUNT++;
                 if (MSG_COUNT === options.max) {
                     toReturn.push(msg);
