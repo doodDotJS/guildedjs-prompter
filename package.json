@@ -19,6 +19,7 @@
     },
     "homepage": "https://github.com/doodDotJS/guildedjs-prompter#readme",
     "devDependencies": {
+        "dotenv": "^16.0.0",
         "guilded.js": "^0.6.0"
     }
 }
