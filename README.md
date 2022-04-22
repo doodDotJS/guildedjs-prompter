@@ -1,5 +1,5 @@
 <h1 align="center">guildedjs-prompter</h1>
-![npm](https://img.shields.io/npm/dt/guildedjs-prompter?style=for-the-badge)
+<img alt="npm" src="https://img.shields.io/npm/dt/guildedjs-prompter?style=for-the-badge"> <img alt="npm" src="https://img.shields.io/npm/v/guildedjs-prompter?style=for-the-badge"> <img alt="NPM" src="https://img.shields.io/npm/l/guildedjs-prompter?style=for-the-badge">
 
 A library for `guilded.js` to prompt user for a response, inspired by `discordjs-prompter`.
 
