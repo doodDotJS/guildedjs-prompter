@@ -1,6 +1,6 @@
 const { Client } = require("guilded.js");
 const client = new Client({
-    token: "CdzVYJUbz2BtD4vwzdP29llog0zITQ/s5+9A8eTSy1pSEwtiP5LC2/4wFIqCTsghdE68lWx9x1Gn9sCHfVxYuA==",
+    token: "",
 });
 
 const Prompter = require("../index");
