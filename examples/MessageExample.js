@@ -2,7 +2,7 @@
 
 const { Client } = require("guilded.js");
 const client = new Client({
-    token: process.env.GUILDED_TOKEN,
+    token: "", //process.env.GUILDED_TOKEN
 });
 
 const Prompter = require("../index");
