@@ -1,4 +1,4 @@
-name: "🚀 release"
+name: "publish"
 
 on:
   push:
