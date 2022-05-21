@@ -17,9 +17,5 @@
     "bugs": {
         "url": "https://github.com/doodDotJS/guildedjs-prompter/issues"
     },
-    "homepage": "https://github.com/doodDotJS/guildedjs-prompter#readme",
-    "devDependencies": {
-        "dotenv": "^16.0.0",
-        "guilded.js": "^0.6.0"
-    }
+    "homepage": "https://github.com/doodDotJS/guildedjs-prompter#readme"
 }

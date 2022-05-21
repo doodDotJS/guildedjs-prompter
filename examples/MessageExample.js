@@ -1,8 +1,6 @@
-// require("dotenv").config();
-
 const { Client } = require("guilded.js");
 const client = new Client({
-    token: "", //process.env.GUILDED_TOKEN
+    token: "",
 });
 
 const Prompter = require("../index");

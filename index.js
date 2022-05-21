@@ -26,10 +26,12 @@ class Prompter {
                 if (MSG_COUNT === options.max) {
                     toReturn.push(msg);
                     resolve(toReturn);
-                    await this.client.messages.delete(
-                        questionMessage.channelId,
-                        questionMessage.id,
-                    );
+                    if (options.deleteOnResponse === true) {
+                        await this.client.messages.delete(
+                            questionMessage.channelId,
+                            questionMessage.id,
+                        );
+                    }
                     return this.client.removeListener("messageCreated", handleOnMessage);
                 }
             };
